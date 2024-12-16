@@ -1,0 +1,73 @@
+body {
+    font-family: "Arial", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.todo-app {
+    width: 900px;
+}
+
+* {
+    box-sizing: border-box;
+
+}
+
+
+.todo-app {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) padding: 20px;
+    border-radius: 10px;
+}
+
+.h1{
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+.todo-app {
+    display: flex;
+    gap: 10px;
+    margin: 20px;
+    width: 100vh;
+    hight: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #0078d7;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px;
+}
+a:hover {
+    background-color: #005bb5;
+    padding: 10px 20px;
+  }
+.To-Do-List {
+    list-style: none;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 10px;
+    color: #f9f9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 1rem;
+    text-decoration: line-through;
+    background-color: #d9534f;
+    color: #ffffff;
+    border-radius: 5px;
+    hover: #c9302c;
+    padding: 5px 10px;
+
+}
+.to-do-info {
+    text-align: center;
+    font-size: 0.9rem;
+    color: #666666;
+    margin-top: 20px;
+}
