@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles2.css">
+    <title>To-Do-App</title>
+</head>
+
+<body>
+    <h1>Meine To Do Liste</h1>
+
+    <div class="todo-app">
+        <form action="">
+            <input type="text" name="todo-input" class="Todo-Input">
+            <button type="submit" value="Hinzufügen">Hinzufügen</button>
+            <button class="todo-button">Delete</button>
+            <button aria-label="Eine neue Aufgabe">Bitte eine neue Aufgabe Hinzufügen</button>
+
+            <ul class="To-Do-List">
+                <li><input type="checkbox">
+                    <span class="task">Aufgabentext</span>
+                    <button onclick="deleteTask()">Aufgabe löschen</button>
+                </li>
+            </ul>
+            <div class="to-do-info">Die Anzahl der offenen Aufgaben:</div>
+        </form>
+    </div>
+
+</body>
+
+</html>
