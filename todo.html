@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/styles2.css">
     <title>To-Do-App</title>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <h1>Meine To Do Liste</h1>
 
     <div class="todo-app">
-        <form action="">
-            <input type="text" name="todo-input" class="Todo-Input">
+        <form action="" id="to-do-form">
+            <input type="text" name="todo-input" class="Todo-Input" id="to-do-input">
             <button type="submit" value="Hinzufügen">Hinzufügen</button>
-            <button class="todo-button">Delete</button>
-            <button aria-label="Eine neue Aufgabe">Bitte eine neue Aufgabe Hinzufügen</button>
-
-            <ul class="To-Do-List">
+            <ul class="To-Do-List" id="to-do-list">
                 <li><input type="checkbox">
                     <span class="task">Aufgabentext</span>
                     <button onclick="deleteTask()">Aufgabe löschen</button>
